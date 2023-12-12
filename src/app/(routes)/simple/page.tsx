@@ -18,8 +18,15 @@ export default function Simple() {
   return (
     <main style={{ width: "100vw", height: "100vh" }}>
       <Canvas>
+        <color attach="background" args={["green"]} />
         <OrbitControls />
-        <ambientLight intensity={Math.PI / 2} />
+        <spotLight
+          position={[10, 10, 10]}
+          angle={0.15}
+          penumbra={1}
+          decay={0}
+          intensity={Math.PI}
+        />
 
         <Sphere />
       </Canvas>
