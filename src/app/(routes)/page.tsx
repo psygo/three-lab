@@ -16,6 +16,11 @@ export default function Home() {
             Spinning Geometries
           </Link>
         </li>
+        <li>
+          <Link href="/reflective-plane">
+            Reflective Plane
+          </Link>
+        </li>
       </ul>
     </main>
   );
