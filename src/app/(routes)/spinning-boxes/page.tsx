@@ -45,7 +45,7 @@ function Box({ position }: BoxProps) {
   );
 }
 
-export default function App() {
+export default function SpinningBoxes() {
   return (
     <main style={{ width: "100vw", height: "100vh" }}>
       <Canvas>

@@ -21,6 +21,11 @@ export default function Home() {
             Reflective Plane
           </Link>
         </li>
+        <li>
+          <Link href="/basic-env-map">
+            Basic Environment Mapping
+          </Link>
+        </li>
       </ul>
     </main>
   );
