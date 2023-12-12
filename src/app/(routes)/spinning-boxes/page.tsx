@@ -2,44 +2,28 @@
 
 import { useRef, useState } from "react";
 
-import {
-  BufferGeometry,
-  Material,
-  Mesh,
-  NormalBufferAttributes,
-  Object3DEventMap,
-  Vector3,
-} from "three";
+import { Vector3 } from "three";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 
-type BoxMeshRef = Mesh<
-  BufferGeometry<NormalBufferAttributes>,
-  Material | Material[],
-  Object3DEventMap
->;
+import { MeshRef } from "@utils/exports";
 
 type BoxProps = {
   position: number[];
 };
-
 /**
  * Source [CodeSandbox by drcmda](https://codesandbox.io/s/basic-demo-rrppl0y8l4)
  */
 function Box({ position }: BoxProps) {
-  // This reference gives us direct access to the THREE.Mesh object
-  const ref = useRef<BoxMeshRef>(null);
+  const ref = useRef<MeshRef>(null);
 
-  // Hold state for hovered and clicked events
   const [hovered, hover] = useState(false);
   const [clicked, click] = useState(false);
 
-  // Subscribe this component to the render-loop, rotate the mesh every frame
   useFrame(
     (_, delta) => (ref.current!.rotation.x += delta)
   );
 
-  // Return the view, these are regular Threejs elements expressed in JSX
   return (
     <mesh
       position={
@@ -53,7 +37,7 @@ function Box({ position }: BoxProps) {
       )}
       onPointerOut={() => hover(false)}
     >
-      <boxGeometry args={[1, 1, 1]} />
+      <boxGeometry args={[5, 24, 24]} />
       <meshStandardMaterial
         color={hovered ? "hotpink" : "orange"}
       />
@@ -63,23 +47,25 @@ function Box({ position }: BoxProps) {
 
 export default function App() {
   return (
-    <Canvas>
-      <ambientLight intensity={Math.PI / 2} />
-      <spotLight
-        position={[10, 10, 10]}
-        angle={0.15}
-        penumbra={1}
-        decay={0}
-        intensity={Math.PI}
-      />
-      <pointLight
-        position={[-10, -10, -10]}
-        decay={0}
-        intensity={Math.PI}
-      />
-      <Box position={[-1.2, 0, 0]} />
-      <Box position={[1.2, 0, 0]} />
-      <OrbitControls />
-    </Canvas>
+    <main style={{ width: "100vw", height: "100vh" }}>
+      <Canvas>
+        <ambientLight intensity={Math.PI / 2} />
+        <spotLight
+          position={[10, 10, 10]}
+          angle={0.15}
+          penumbra={1}
+          decay={0}
+          intensity={Math.PI}
+        />
+        <pointLight
+          position={[-10, -10, -10]}
+          decay={0}
+          intensity={Math.PI}
+        />
+        <Box position={[-1.2, 0, 0]} />
+        <Box position={[1.2, 0, 0]} />
+        <OrbitControls />
+      </Canvas>
+    </main>
   );
 }
