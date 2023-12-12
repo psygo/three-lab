@@ -35,7 +35,7 @@ export default function BasicEnvMap() {
         <mesh
           position={[position.x, position.y, position.z]}
         >
-          <sphereGeometry args={[1, 64, 64]} />
+          <icosahedronGeometry args={[1]} />
           <meshPhysicalMaterial
             reflectivity={1}
             transmission={1}
