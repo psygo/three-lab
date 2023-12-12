@@ -26,6 +26,11 @@ export default function Home() {
             Basic Environment Mapping
           </Link>
         </li>
+        <li>
+          <Link href="/basic-custom-shader">
+            Basic Custom Shader
+          </Link>
+        </li>
       </ul>
     </main>
   );
