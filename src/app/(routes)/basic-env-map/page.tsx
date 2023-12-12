@@ -5,33 +5,16 @@ import React from "react";
 import { Canvas } from "@react-three/fiber";
 import {
   Environment,
-  MeshReflectorMaterial,
   OrbitControls,
 } from "@react-three/drei";
 
-function Sphere() {
-  return (
-    <mesh position={[1, 1, 1]}>
-      <sphereGeometry args={[1, 32, 32]} />
-      {/* <meshStandardMaterial color="hotpink" /> */}
-      <MeshReflectorMaterial
-        mirror={0}
-        blur={[300, 100]}
-        resolution={2048}
-        mixBlur={1}
-        mixStrength={80}
-        roughness={1}
-        depthScale={1.2}
-        minDepthThreshold={0.4}
-        maxDepthThreshold={1.4}
-        color="#050505"
-        metalness={0.5}
-      />
-    </mesh>
-  );
-}
+import { useControls } from "leva";
 
 export default function BasicEnvMap() {
+  const { position } = useControls({
+    position: { value: { x: -2, y: 0, z: 0 }, step: 0.1 },
+  });
+
   return (
     <main style={{ width: "100vw", height: "100vh" }}>
       <Canvas>
@@ -46,7 +29,21 @@ export default function BasicEnvMap() {
           intensity={Math.PI}
         />
 
-        <Sphere />
+        <mesh
+          position={[position.x, position.y, position.z]}
+        >
+          <sphereGeometry args={[1, 64, 64]} />
+          <meshPhysicalMaterial
+            reflectivity={1}
+            transmission={1}
+            roughness={0}
+            metalness={0}
+            clearcoat={0.3}
+            clearcoatRoughness={0.25}
+            color="black"
+            ior={1.5}
+          />
+        </mesh>
       </Canvas>
     </main>
   );
