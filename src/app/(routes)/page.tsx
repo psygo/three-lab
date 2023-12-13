@@ -31,6 +31,9 @@ export default function Home() {
             Basic Custom Shader
           </Link>
         </li>
+        <li>
+          <Link href="/decal">Decal</Link>
+        </li>
       </ul>
     </main>
   );
