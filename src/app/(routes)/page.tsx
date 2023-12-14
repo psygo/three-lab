@@ -34,6 +34,9 @@ export default function Home() {
         <li>
           <Link href="/decal">Decal</Link>
         </li>
+        <li>
+          <Link href="/extrusion">Extrusion</Link>
+        </li>
       </ul>
     </main>
   );

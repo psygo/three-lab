@@ -5,6 +5,7 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 ## Things to Learn
 
 - [x] Simple Scene
+- [ ] 3D Text
 - [x] Reflective Surfaces
   - [Beautiful Glossy Sphere](https://pierfrancesco-soffritti.medium.com/glossy-spheres-in-three-js-bfd2785d4857)
   - [Drei Reflector](https://onion2k.github.io/r3f-by-example/examples/other/reflector/)
@@ -12,6 +13,7 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 - [x] Spinning
 - [x] Environment Mapping
 - [x] Decal
+- [ ] Extrusion
 - [ ] Extrusion from SVG
   - [LogRocket - Extrusion from SVG](https://blog.logrocket.com/bringing-svgs-three-js-svgloader/)
 - [ ] Post-Processing Filters
@@ -36,6 +38,7 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 - [Drei](https://github.com/pmndrs/drei?tab=readme-ov-file)
 - [Leva GUI Debugging](https://github.com/pmndrs/leva)
 - [R3F-Perf](https://github.com/utsuboco/r3f-perf)
+- [SVG to Mesh 3D](https://github.com/mattdesl/svg-mesh-3d?tab=readme-ov-file)
 - [SBCode Tutorials](https://sbcode.net/threejs/raycast-to-displacementmap/)
 - [React Three Rapier (Physics Library)](https://github.com/pmndrs/react-three-rapier)
 - Yuri Artiukh
