@@ -51,5 +51,6 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
   - [Fake 3D Image Effect with WebGL](https://github.com/akella/fake3d?tab=readme-ov-file)
   - [Yuri Artiukh's YouTube Channel](https://www.youtube.com/@akella_)
 - [Maxime Heckel's Blog on Three.js](https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/)
-- Other Articles:
+- Other Articles and Resources:
   - [Varun Vachhar on Shaders](https://varun.ca/modular-webgl/)
+  - [Wawa Sensei - Mesh Explosion Effect](https://youtu.be/If8Cl2NSNZU)

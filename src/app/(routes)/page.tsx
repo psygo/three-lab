@@ -43,6 +43,9 @@ export default function Home() {
         <li>
           <Link href="/bloom-filter">Bloom Filter</Link>
         </li>
+        <li>
+          <Link href="/svg-mesh-3d">SVG Mesh 3D</Link>
+        </li>
       </ul>
     </main>
   );
