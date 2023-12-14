@@ -37,6 +37,9 @@ export default function Home() {
         <li>
           <Link href="/extrusion">Extrusion</Link>
         </li>
+        <li>
+          <Link href="/svg">SVG</Link>
+        </li>
       </ul>
     </main>
   );

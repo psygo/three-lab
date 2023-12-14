@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@pmndrs/assets": "^1.6.0",
+    "@react-spring/three": "^9.7.3",
     "@react-three/drei": "^9.92.1",
     "@react-three/fiber": "^8.15.12",
     "@types/three": "^0.159.0",

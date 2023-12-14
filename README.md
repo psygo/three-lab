@@ -13,7 +13,8 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 - [x] Spinning
 - [x] Environment Mapping
 - [x] Decal
-- [ ] Extrusion
+- [ ] SVG to Shape
+- [x] Extrusion
 - [ ] Extrusion from SVG
   - [LogRocket - Extrusion from SVG](https://blog.logrocket.com/bringing-svgs-three-js-svgloader/)
 - [ ] Post-Processing Filters

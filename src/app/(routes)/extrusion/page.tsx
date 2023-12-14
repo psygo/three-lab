@@ -29,6 +29,8 @@ const extrudeSettings = {
  * References:
  *
  * - [How to Create an Irregular 3D Polygon extruded shape React-Three-Fiber](https://stackoverflow.com/a/69438868/4756173)
+ * - [2D Shape](https://codesandbox.io/p/sandbox/geometry-2d-f408i?file=%2Fsrc%2Findex.js)
+ * - [Brad Woods Demos](https://garden.bradwoods.io/notes/javascript/react/react-three-fiber)
  */
 export default function Extrusion() {
   return (
