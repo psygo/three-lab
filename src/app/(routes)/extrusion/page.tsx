@@ -1,6 +1,12 @@
 "use client";
 
-import { DoubleSide, Shape } from "three";
+import {
+  Vector3,
+  CatmullRomCurve3,
+  DoubleSide,
+  ExtrudeGeometryOptions,
+  Shape,
+} from "three";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 
@@ -18,11 +24,26 @@ shape.lineTo(length - offset, width);
 shape.lineTo(length, 0);
 shape.lineTo(0, 0);
 
-const extrudeSettings = {
+/**
+ * From [Three.js Geometry Extrude Shapes](https://threejs.org/examples/?q=extru#webgl_geometry_extrude_shapes)
+ */
+const closedSpline = new CatmullRomCurve3([
+  new Vector3(-60, -100, 60),
+  new Vector3(-60, 20, 60),
+  new Vector3(-60, 120, 60),
+  new Vector3(60, 20, -60),
+  new Vector3(60, -100, -60),
+]);
+closedSpline.curveType = "catmullrom";
+closedSpline.closed = true;
+
+const extrudeSettings: ExtrudeGeometryOptions = {
   curveSegments: 1,
-  steps: 1,
+  // Catmull-Rom is a recursive algorithm, it needs steps.
+  steps: 100,
   depth: thickness,
   bevelEnabled: false,
+  extrudePath: closedSpline,
 };
 
 /**

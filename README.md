@@ -15,10 +15,12 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 - [x] Decal
 - [ ] SVG to Shape
   - [Three.js Examples - `SVGLoader`](https://threejs.org/examples/?q=svg#webgl_loader_svg)
-- [x] Extrusion
+- Extrusion
+  - [x] Simple
+  - [ ] Extrusion from SVG
+    - [LogRocket - Extrusion from SVG](https://blog.logrocket.com/bringing-svgs-three-js-svgloader/)
+  - Rotational Extrusion
   - [Super Cool Cylinder to Sphere Extrusion Sandbox](https://codesandbox.io/p/sandbox/r3f-extrude-cylinder-gdvrg?file=%2Fsrc%2Findex.js)
-- [ ] Extrusion from SVG
-  - [LogRocket - Extrusion from SVG](https://blog.logrocket.com/bringing-svgs-three-js-svgloader/)
 - [ ] [SVG Mesh 3D](https://github.com/mattdesl/svg-mesh-3d)
 - Post-Processing Filters
   - [x] [Bloom Filter on Hover](https://codesandbox.io/p/sandbox/bloom-hdr-workflow-gnn4yt?file=%2Fsrc%2FApp.js)
