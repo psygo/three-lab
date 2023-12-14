@@ -56,3 +56,6 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 - Other Articles and Resources:
   - [Varun Vachhar on Shaders](https://varun.ca/modular-webgl/)
   - [Wawa Sensei - Mesh Explosion Effect](https://youtu.be/If8Cl2NSNZU)
+  - [Twist Mesh](https://stackoverflow.com/a/39767668/4756173)
+  - [Shear Mesh](https://stackoverflow.com/a/25647543/4756173)
+  - [Text Moebius](https://tympanus.net/codrops/2023/01/20/rotating-twisted-3d-typography-with-three-js-and-shaders/)
