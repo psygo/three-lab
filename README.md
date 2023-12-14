@@ -20,12 +20,14 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 - [ ] Extrusion from SVG
   - [LogRocket - Extrusion from SVG](https://blog.logrocket.com/bringing-svgs-three-js-svgloader/)
 - [ ] [SVG Mesh 3D](https://github.com/mattdesl/svg-mesh-3d)
-- [ ] Post-Processing Filters
-  - [Bloom Filter on Hover]
+- Post-Processing Filters
+  - [x] [Bloom Filter on Hover](https://codesandbox.io/p/sandbox/bloom-hdr-workflow-gnn4yt?file=%2Fsrc%2FApp.js)
+  - [Crazy Cool Ring](https://codesandbox.io/p/sandbox/diamond-ring-forked-k9zqx8?file=%2Fsrc%2FApp.js)
+  - [Distort Material](https://codesandbox.io/p/sandbox/react-postprocessing-dof-blob-pqrpl?file=%2Fsrc%2FApp.js%3A102%2C14)
 - [ ] Face Intersection (Hovering)
   - [Engine with Highlight on Hover](https://codesandbox.io/p/sandbox/react-pp-outlines-nurp5t?file=%2Fsrc%2FEngine.js%3A33%2C10)
   - [Highlighting Triangles of Faces](https://jsfiddle.net/nkmqt3p2/)
-- Mapping an `<iframe>` onto a Face
+- [ ] Mapping an `<iframe>` onto a Face
 - [ ] Physics
   - [ ] Simple with Rapier
   - [ ] Detect when Something Enters Somethings Else (e.g. a basket)

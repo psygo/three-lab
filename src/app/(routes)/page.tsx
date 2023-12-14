@@ -40,6 +40,9 @@ export default function Home() {
         <li>
           <Link href="/svg">SVG</Link>
         </li>
+        <li>
+          <Link href="/bloom-filter">Bloom Filter</Link>
+        </li>
       </ul>
     </main>
   );
