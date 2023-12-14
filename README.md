@@ -6,6 +6,7 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 
 - [x] Simple Scene
 - [ ] 3D Text
+- [ ] Camera Move with Transitions
 - [x] Reflective Surfaces
   - [Beautiful Glossy Sphere](https://pierfrancesco-soffritti.medium.com/glossy-spheres-in-three-js-bfd2785d4857)
   - [Drei Reflector](https://onion2k.github.io/r3f-by-example/examples/other/reflector/)
