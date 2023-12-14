@@ -1,11 +1,9 @@
 "use client";
 
-import React, { useRef } from "react";
+import React from "react";
 
-import { Canvas, useFrame } from "@react-three/fiber";
+import { Canvas } from "@react-three/fiber";
 import {
-  Decal,
-  Dodecahedron,
   Environment,
   OrbitControls,
   PerspectiveCamera,
@@ -52,42 +50,34 @@ export default function BasicEnvMap() {
             ior={1.5}
           />
 
-          <Decal
-            position={[0, 0, 0.75]}
-            rotation={[-0.4, Math.PI, 0]}
-            scale={[0.9, 0.25, 1]}
+          <meshStandardMaterial
+            roughness={0.6}
+            transparent
+            polygonOffset
+            polygonOffsetFactor={-10}
           >
-            <meshStandardMaterial
-              roughness={0.6}
-              transparent
-              polygonOffset
-              polygonOffsetFactor={-10}
-            >
-              <RenderTexture attach="map" anisotropy={16}>
-                <PerspectiveCamera
-                  makeDefault
-                  manual
-                  aspect={0.9 / 0.25}
-                  position={[0, 0, 5]}
-                />
-                <color
-                  attach="background"
-                  args={["#af2040"]}
-                />
-                <ambientLight intensity={0.5} />
-                <directionalLight position={[10, 10, 5]} />
-                <Text
-                  rotation={[0, Math.PI, 0]}
-                  //   ref={textRef}
-                  fontSize={2}
-                  color="white"
-                >
-                  hello from drei
-                </Text>
-                {/* <Dodecahedron /> */}
-              </RenderTexture>
-            </meshStandardMaterial>
-          </Decal>
+            <RenderTexture attach="map" anisotropy={16}>
+              <PerspectiveCamera
+                makeDefault
+                manual
+                aspect={0.9 / 0.25}
+                position={[0, 0, 5]}
+              />
+              <color
+                attach="background"
+                args={["#af2040"]}
+              />
+              <ambientLight intensity={0.5} />
+              <directionalLight position={[10, 10, 5]} />
+              <Text
+                rotation={[0, Math.PI, 0]}
+                fontSize={2}
+                color="white"
+              >
+                hello from drei
+              </Text>
+            </RenderTexture>
+          </meshStandardMaterial>
         </mesh>
       </Canvas>
     </main>
