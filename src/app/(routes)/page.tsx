@@ -52,6 +52,11 @@ export default function Home() {
         <li>
           <Link href="/hover-on-face">Hover on Face</Link>
         </li>
+        <li>
+          <Link href="/iframe-positioning">
+            iframe Positioning
+          </Link>
+        </li>
       </ul>
     </main>
   );

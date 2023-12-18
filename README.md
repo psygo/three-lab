@@ -7,7 +7,7 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 - [x] Simple Scene
 - [x] 3D Text
 - [ ] Camera Move with Transitions
-- [ ] GLTF Loader
+- [x] GLTF Loader
 - [x] Reflective Surfaces
   - [Beautiful Glossy Sphere](https://pierfrancesco-soffritti.medium.com/glossy-spheres-in-three-js-bfd2785d4857)
   - [Drei Reflector](https://onion2k.github.io/r3f-by-example/examples/other/reflector/)
@@ -32,10 +32,12 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
   - [Stack Overflow - _Hover on Face with React Three Fiber_](https://stackoverflow.com/q/77679154/4756173)
   - [Engine with Highlight on Hover](https://codesandbox.io/p/sandbox/react-pp-outlines-nurp5t?file=%2Fsrc%2FEngine.js%3A33%2C10)
   - [Highlighting Triangles of Faces](https://jsfiddle.net/nkmqt3p2/)
-- [ ] Mapping an `<iframe>` onto a Face
-  - [`<iframe>` positionining with React Three Fiber](https://youtu.be/SQRqU3N3ehs)
-  - [Henry Heffernan's Portfolio](https://henryheffernan.com/)
-  - [3D HTML](https://discourse.threejs.org/t/how-can-i-embed-an-iframe-in-three-js-3d-modeling/44075/2)
+- `<iframe>`
+  - [x] Positioning
+    - Mapping an `<iframe>` onto a Face
+      - [`<iframe>` positionining with React Three Fiber](https://youtu.be/SQRqU3N3ehs)
+      - [Henry Heffernan's Portfolio](https://henryheffernan.com/)
+      - [3D HTML](https://discourse.threejs.org/t/how-can-i-embed-an-iframe-in-three-js-3d-modeling/44075/2)
 - Shaders
   - [ ] Simple
   - [ ] Noise Shader on Top of an Existent Geometry (e.g. Cube)
