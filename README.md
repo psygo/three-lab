@@ -5,7 +5,7 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 ## Things to Learn
 
 - [x] Simple Scene
-- [ ] 3D Text
+- [x] 3D Text
 - [ ] Camera Move with Transitions
 - [x] Reflective Surfaces
   - [Beautiful Glossy Sphere](https://pierfrancesco-soffritti.medium.com/glossy-spheres-in-three-js-bfd2785d4857)
@@ -20,7 +20,7 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
   - [x] Simple
   - [ ] Extrusion from SVG
     - [LogRocket - Extrusion from SVG](https://blog.logrocket.com/bringing-svgs-three-js-svgloader/)
-  - Rotational Extrusion
+  - [ ] Rotational Extrusion
   - [Super Cool Cylinder to Sphere Extrusion Sandbox](https://codesandbox.io/p/sandbox/r3f-extrude-cylinder-gdvrg?file=%2Fsrc%2Findex.js)
 - [ ] [SVG Mesh 3D](https://github.com/mattdesl/svg-mesh-3d)
 - Post-Processing Filters
@@ -47,6 +47,7 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 - [Drei](https://github.com/pmndrs/drei?tab=readme-ov-file)
 - [Leva GUI Debugging](https://github.com/pmndrs/leva)
 - [R3F-Perf](https://github.com/utsuboco/r3f-perf)
+- [Free Matcap Textures by emmelleppi](https://github.com/emmelleppi/matcaps)
 - [SVG to Mesh 3D](https://github.com/mattdesl/svg-mesh-3d?tab=readme-ov-file)
 - [SBCode Tutorials](https://sbcode.net/threejs/raycast-to-displacementmap/)
 - [React Three Rapier (Physics Library)](https://github.com/pmndrs/react-three-rapier)

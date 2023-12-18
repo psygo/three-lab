@@ -46,6 +46,9 @@ export default function Home() {
         <li>
           <Link href="/svg-mesh-3d">SVG Mesh 3D</Link>
         </li>
+        <li>
+          <Link href="/text-3d">3D Text</Link>
+        </li>
       </ul>
     </main>
   );
