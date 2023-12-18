@@ -28,10 +28,14 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
   - [x] [Bloom Filter on Hover](https://codesandbox.io/p/sandbox/bloom-hdr-workflow-gnn4yt?file=%2Fsrc%2FApp.js)
   - [Crazy Cool Ring](https://codesandbox.io/p/sandbox/diamond-ring-forked-k9zqx8?file=%2Fsrc%2FApp.js)
   - [Distort Material](https://codesandbox.io/p/sandbox/react-postprocessing-dof-blob-pqrpl?file=%2Fsrc%2FApp.js%3A102%2C14)
-- [ ] Face Intersection (Hovering)
+- [x] Face Intersection (Hovering)
+  - [Stack Overflow - _Hover on Face with React Three Fiber_](https://stackoverflow.com/q/77679154/4756173)
   - [Engine with Highlight on Hover](https://codesandbox.io/p/sandbox/react-pp-outlines-nurp5t?file=%2Fsrc%2FEngine.js%3A33%2C10)
   - [Highlighting Triangles of Faces](https://jsfiddle.net/nkmqt3p2/)
 - [ ] Mapping an `<iframe>` onto a Face
+  - [`<iframe>` positionining with React Three Fiber](https://youtu.be/SQRqU3N3ehs)
+  - [Henry Heffernan's Portfolio](https://henryheffernan.com/)
+  - [3D HTML](https://discourse.threejs.org/t/how-can-i-embed-an-iframe-in-three-js-3d-modeling/44075/2)
 - Shaders
   - [ ] Simple
   - [ ] Noise Shader on Top of an Existent Geometry (e.g. Cube)
@@ -60,6 +64,7 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
     - [Magical World of Particles](https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/)
   - [Zoom Distort Effect on Image](https://codesandbox.io/p/sandbox/react-three-fiber-hover-zoom-channel-displacement-4o8gj?file=%2Fsrc%2Findex.js)
 - Other Articles and Resources:
+  - [Henry Heffernan's Portfolio](https://henryheffernan.com/)
   - [Varun Vachhar on Shaders](https://varun.ca/modular-webgl/)
   - [Wawa Sensei - Mesh Explosion Effect](https://youtu.be/If8Cl2NSNZU)
   - [Twist Mesh](https://stackoverflow.com/a/39767668/4756173)
