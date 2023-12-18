@@ -31,13 +31,13 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
   - [Engine with Highlight on Hover](https://codesandbox.io/p/sandbox/react-pp-outlines-nurp5t?file=%2Fsrc%2FEngine.js%3A33%2C10)
   - [Highlighting Triangles of Faces](https://jsfiddle.net/nkmqt3p2/)
 - [ ] Mapping an `<iframe>` onto a Face
-- [ ] Physics
-  - [ ] Simple with Rapier
-  - [ ] Detect when Something Enters Somethings Else (e.g. a basket)
 - Shaders
   - [ ] Simple
   - [ ] Noise Shader on Top of an Existent Geometry (e.g. Cube)
   - [ ] [Sun](https://youtu.be/3krH52AhPqk)
+- [ ] Physics
+  - [ ] Simple with Rapier
+  - [ ] Detect when Something Enters Somethings Else (e.g. a basket)
 
 ## References
 
@@ -51,10 +51,13 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 - [SVG to Mesh 3D](https://github.com/mattdesl/svg-mesh-3d?tab=readme-ov-file)
 - [SBCode Tutorials](https://sbcode.net/threejs/raycast-to-displacementmap/)
 - [React Three Rapier (Physics Library)](https://github.com/pmndrs/react-three-rapier)
-- Yuri Artiukh
-  - [Fake 3D Image Effect with WebGL](https://github.com/akella/fake3d?tab=readme-ov-file)
-  - [Yuri Artiukh's YouTube Channel](https://www.youtube.com/@akella_)
-- [Maxime Heckel's Blog on Three.js](https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/)
+- Shaders:
+  - Yuri Artiukh
+    - [Fake 3D Image Effect with WebGL](https://github.com/akella/fake3d?tab=readme-ov-file)
+    - [Yuri Artiukh's YouTube Channel](https://www.youtube.com/@akella_)
+  - Maxime Heckel
+    - [Magical World of Particles](https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/)
+  - [Zoom Distort Effect on Image](https://codesandbox.io/p/sandbox/react-three-fiber-hover-zoom-channel-displacement-4o8gj?file=%2Fsrc%2Findex.js)
 - Other Articles and Resources:
   - [Varun Vachhar on Shaders](https://varun.ca/modular-webgl/)
   - [Wawa Sensei - Mesh Explosion Effect](https://youtu.be/If8Cl2NSNZU)
