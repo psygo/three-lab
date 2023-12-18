@@ -7,6 +7,7 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 - [x] Simple Scene
 - [x] 3D Text
 - [ ] Camera Move with Transitions
+- [ ] GLTF Loader
 - [x] Reflective Surfaces
   - [Beautiful Glossy Sphere](https://pierfrancesco-soffritti.medium.com/glossy-spheres-in-three-js-bfd2785d4857)
   - [Drei Reflector](https://onion2k.github.io/r3f-by-example/examples/other/reflector/)
@@ -34,7 +35,7 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 - Shaders
   - [ ] Simple
   - [ ] Noise Shader on Top of an Existent Geometry (e.g. Cube)
-  - [ ] [Sun](https://youtu.be/3krH52AhPqk)
+  - [Sun](https://youtu.be/3krH52AhPqk)
 - [ ] Physics
   - [ ] Simple with Rapier
   - [ ] Detect when Something Enters Somethings Else (e.g. a basket)

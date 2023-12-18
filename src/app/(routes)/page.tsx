@@ -49,6 +49,9 @@ export default function Home() {
         <li>
           <Link href="/text-3d">3D Text</Link>
         </li>
+        <li>
+          <Link href="/hover-on-face">Hover on Face</Link>
+        </li>
       </ul>
     </main>
   );
