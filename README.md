@@ -35,6 +35,7 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 - `<iframe>`
   - [x] Positioning
     - Mapping an `<iframe>` onto a Face
+      - You can't make it a texture actually.
       - [`<iframe>` positionining with React Three Fiber](https://youtu.be/SQRqU3N3ehs)
       - [Henry Heffernan's Portfolio](https://henryheffernan.com/)
       - [3D HTML](https://discourse.threejs.org/t/how-can-i-embed-an-iframe-in-three-js-3d-modeling/44075/2)
