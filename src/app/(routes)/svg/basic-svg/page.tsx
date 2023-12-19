@@ -48,7 +48,7 @@ import { OrbitControls } from "@react-three/drei";
 // }
 
 function Logo() {
-  const svgData = useLoader(SVGLoader, "/tiger.svg");
+  const svgData = useLoader(SVGLoader, "/fanaro.io.svg");
   const shapes = useMemo(() => {
     return svgData.paths.map((p) => p.toShapes(true));
   }, [svgData]);

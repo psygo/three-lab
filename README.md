@@ -6,7 +6,7 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 
 - [x] Simple Scene
 - [x] 3D Text
-- [ ] Camera Move with Transitions
+- [x] Camera Move with Transitions
   - [Camera Zoom to Object](https://codesandbox.io/p/sandbox/three-fiber-zoom-to-object-camera-controls-solution-final-sbgx0?file=%2Fsrc%2FApp.js)
 - [x] GLTF Loader
 - [x] Reflective Surfaces
