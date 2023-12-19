@@ -11,28 +11,24 @@ import {
 import { OrbitControls } from "@react-three/drei";
 import CameraControls from "camera-controls";
 
-type SphereProps = {
-  color: string;
-  position: THREE.Vector3;
-};
-function Sphere({ color, position }: SphereProps) {
-  return (
-    <mesh position={position}>
-      <sphereGeometry args={[1, 32, 32]} />
-      <meshStandardMaterial color={color} />
-    </mesh>
-  );
-}
-
-CameraControls.install({ THREE });
-
 type ControlsProps = {
   zoom: boolean;
   focus: any;
-  pos: THREE.Vector3;
-  look: THREE.Vector3;
+  pos?: THREE.Vector3;
+  look?: THREE.Vector3;
 };
+// /**
+//  * References:
+//  *
+//  * - [Zoomable Cloud](https://codesandbox.io/p/sandbox/three-fiber-zoom-to-object-camera-controls-solution-final-sbgx0?file=%2Fsrc%2FApp.js%3A25%2C1)
+//  */
+CameraControls.install({ THREE });
+const randomPos = (min = 5, max = -5) =>
+  Math.random() * (max - min) + min;
+
 /**
+ * You can also use [Drei's `useBounds` hook](https://www.reddit.com/r/threejs/comments/wwhdwi/comment/iln1uxu/?utm_source=share&utm_medium=web2x&context=3)
+ *
  * Uses [the Camera Controls package](https://github.com/yomotsu/camera-controls?tab=readme-ov-file)
  */
 function Controls({
@@ -43,10 +39,12 @@ function Controls({
 }: ControlsProps) {
   const camera = useThree((state) => state.camera);
   const gl = useThree((state) => state.gl);
+
   const controls = useMemo(
     () => new CameraControls(camera, gl.domElement),
     [camera, gl.domElement]
   );
+
   return useFrame((state, delta) => {
     zoom
       ? pos.set(focus.x, focus.y, focus.z + 0.2)
@@ -71,53 +69,69 @@ function Controls({
   });
 }
 
-type SpheresProps = {
-  zoomToView: Function;
-};
-function Spheres({ zoomToView }: SpheresProps) {
+function Cloud({
+  momentsData,
+  zoomToView,
+}: {
+  momentsData: any;
+  zoomToView: any;
+}) {
   return (
-    <group>
+    <>
       <mesh
         position={[1, 1, 1]}
-        onClick={(e) => zoomToView(e.object.position)}
+        onClick={(e) =>
+          zoomToView({
+            ...e.object.position,
+            z: e.object.position.z + 3,
+          })
+        }
       >
         <sphereGeometry args={[1, 32, 32]} />
         <meshStandardMaterial color="hotpink" />
       </mesh>
       <mesh
         position={[1, -3, -2]}
-        onClick={(e) => zoomToView(e.object.position)}
+        onClick={(e) =>
+          zoomToView({
+            ...e.object.position,
+            z: e.object.position.z + 3,
+          })
+        }
       >
         <sphereGeometry args={[1, 32, 32]} />
         <meshStandardMaterial color="green" />
       </mesh>
-    </group>
+    </>
   );
 }
 
-/**
- * References:
- *
- * - [Zoomable Cloud](https://codesandbox.io/p/sandbox/three-fiber-zoom-to-object-camera-controls-solution-final-sbgx0?file=%2Fsrc%2FApp.js%3A25%2C1)
- */
-export default function CameraMovement() {
+export default function App() {
   const [zoom, setZoom] = useState(false);
-  const [focus, setFocus] = useState({});
+  const [focus, setFocus] = useState<THREE.Vector3>();
+
+  const momentsArray = useMemo(
+    () =>
+      Array.from({ length: 500 }, () => ({
+        color: "red",
+        position: [randomPos(), randomPos(), randomPos()],
+      })),
+    []
+  );
 
   return (
     <main style={{ width: "100vw", height: "100vh" }}>
-      <Canvas>
-        <color attach="background" args={["darkblue"]} />
-        <OrbitControls />
-        <spotLight
-          position={[10, 10, 10]}
-          angle={0.15}
-          penumbra={1}
-          decay={0}
-          intensity={Math.PI}
+      <Canvas linear camera={{ position: [0, 0, 5] }}>
+        <ambientLight />
+        <directionalLight
+          position={[150, 150, 150]}
+          intensity={0.55}
         />
+        <OrbitControls />
 
-        <Spheres
+        <Controls zoom={zoom} focus={focus} />
+        <Cloud
+          momentsData={momentsArray}
           zoomToView={(focusRef: any) => (
             setZoom(!zoom), setFocus(focusRef)
           )}
