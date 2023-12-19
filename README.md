@@ -4,42 +4,40 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 
 ## Things to Learn
 
-- [x] Simple Scene
-- [x] 3D Text
-- [x] Camera Move with Transitions
-  - [Camera Zoom to Object](https://codesandbox.io/p/sandbox/three-fiber-zoom-to-object-camera-controls-solution-final-sbgx0?file=%2Fsrc%2FApp.js)
-- [x] GLTF Loader
-- [x] Reflective Surfaces
-  - [Beautiful Glossy Sphere](https://pierfrancesco-soffritti.medium.com/glossy-spheres-in-three-js-bfd2785d4857)
-  - [Drei Reflector](https://onion2k.github.io/r3f-by-example/examples/other/reflector/)
-  - [Clear Mirror with Spinning and Bouncing Shapes](https://threejs.org/examples/?q=mir#webgl_mirror)
-- [x] Spinning
-- [x] Environment Mapping
-- [x] Decal
-- [ ] SVG to Shape
-  - [Three.js Examples - `SVGLoader`](https://threejs.org/examples/?q=svg#webgl_loader_svg)
+- Basic Techniques
+  - [x] Simple Scene
+  - [x] 3D Text
+  - [x] Camera Move with Transitions
+    - [Camera Zoom to Object](https://codesandbox.io/p/sandbox/three-fiber-zoom-to-object-camera-controls-solution-final-sbgx0?file=%2Fsrc%2FApp.js)
+  - [x] GLTF Loader
+  - [x] Reflective Surfaces
+    - [Beautiful Glossy Sphere](https://pierfrancesco-soffritti.medium.com/glossy-spheres-in-three-js-bfd2785d4857)
+    - [Drei Reflector](https://onion2k.github.io/r3f-by-example/examples/other/reflector/)
+    - [Clear Mirror with Spinning and Bouncing Shapes](https://threejs.org/examples/?q=mir#webgl_mirror)
+  - [x] Spinning
+  - [x] Environment Mapping
+- SVG
+  - [x] SVG to Shape
+    - [Three.js Examples - `SVGLoader`](https://threejs.org/examples/?q=svg#webgl_loader_svg)
+  - [ ] [SVG Mesh 3D](https://github.com/mattdesl/svg-mesh-3d)
 - Extrusion
   - [x] Simple
   - [ ] Extrusion from SVG
     - [LogRocket - Extrusion from SVG](https://blog.logrocket.com/bringing-svgs-three-js-svgloader/)
   - [ ] Rotational Extrusion
   - [Super Cool Cylinder to Sphere Extrusion Sandbox](https://codesandbox.io/p/sandbox/r3f-extrude-cylinder-gdvrg?file=%2Fsrc%2Findex.js)
-- [ ] [SVG Mesh 3D](https://github.com/mattdesl/svg-mesh-3d)
-- Post-Processing Filters
+- Post-Processing
   - [x] [Bloom Filter on Hover](https://codesandbox.io/p/sandbox/bloom-hdr-workflow-gnn4yt?file=%2Fsrc%2FApp.js)
   - [Crazy Cool Ring](https://codesandbox.io/p/sandbox/diamond-ring-forked-k9zqx8?file=%2Fsrc%2FApp.js)
   - [Distort Material](https://codesandbox.io/p/sandbox/react-postprocessing-dof-blob-pqrpl?file=%2Fsrc%2FApp.js%3A102%2C14)
-- [x] Face Intersection (Hovering)
-  - [Stack Overflow - _Hover on Face with React Three Fiber_](https://stackoverflow.com/q/77679154/4756173)
-  - [Engine with Highlight on Hover](https://codesandbox.io/p/sandbox/react-pp-outlines-nurp5t?file=%2Fsrc%2FEngine.js%3A33%2C10)
-  - [Highlighting Triangles of Faces](https://jsfiddle.net/nkmqt3p2/)
-- `<iframe>`
-  - [x] Positioning
-    - Mapping an `<iframe>` onto a Face
-      - You can't make it a texture actually.
-      - [`<iframe>` positionining with React Three Fiber](https://youtu.be/SQRqU3N3ehs)
-      - [Henry Heffernan's Portfolio](https://henryheffernan.com/)
-      - [3D HTML](https://discourse.threejs.org/t/how-can-i-embed-an-iframe-in-three-js-3d-modeling/44075/2)
+- HTML and Text
+  - `<iframe>`
+    - [x] Positioning
+      - Mapping an `<iframe>` onto a Face
+        - You can't make it a texture actually.
+        - [`<iframe>` positionining with React Three Fiber](https://youtu.be/SQRqU3N3ehs)
+  - [Henry Heffernan's Portfolio](https://henryheffernan.com/)
+  - [3D HTML](https://discourse.threejs.org/t/how-can-i-embed-an-iframe-in-three-js-3d-modeling/44075/2)
 - Shaders
   - [x] Simple
   - [ ] Noise Shader on Top of an Existent Geometry (e.g. Cube)
@@ -48,6 +46,12 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 - Physics
   - [ ] Simple with Rapier
   - [ ] Detect when Something Enters Somethings Else (e.g. a basket)
+- Others
+  - [x] Decal
+  - [x] Face Intersection (Hovering)
+    - [Stack Overflow - _Hover on Face with React Three Fiber_](https://stackoverflow.com/q/77679154/4756173)
+    - [Engine with Highlight on Hover](https://codesandbox.io/p/sandbox/react-pp-outlines-nurp5t?file=%2Fsrc%2FEngine.js%3A33%2C10)
+    - [Highlighting Triangles of Faces](https://jsfiddle.net/nkmqt3p2/)
 
 ## References
 
@@ -70,6 +74,8 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
     - [Frame Buffer Objects (FBO) for handling 100k+ particles](https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/)
     - [Maxime's Showcase of Examples](https://r3f.maximeheckel.com/caustics)
   - [Zoom Distort Effect on Image](https://codesandbox.io/p/sandbox/react-three-fiber-hover-zoom-channel-displacement-4o8gj?file=%2Fsrc%2Findex.js)
+- Physics
+  - [Snap to 2D Grid when moving](https://codesandbox.io/p/sandbox/plane-project-uexjm?file=%2Fsrc%2FApp.js%3A39%2C2)
 - Other Articles and Resources:
   - [Henry Heffernan's Portfolio](https://henryheffernan.com/)
   - [Varun Vachhar on Shaders](https://varun.ca/modular-webgl/)
