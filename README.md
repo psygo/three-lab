@@ -76,6 +76,8 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
   - [Zoom Distort Effect on Image](https://codesandbox.io/p/sandbox/react-three-fiber-hover-zoom-channel-displacement-4o8gj?file=%2Fsrc%2Findex.js)
 - Physics
   - [Snap to 2D Grid when moving](https://codesandbox.io/p/sandbox/plane-project-uexjm?file=%2Fsrc%2FApp.js%3A39%2C2)
+  - [Bowling](https://codesandbox.io/p/sandbox/bowling-with-react-three-fiber-react-three-rapier-rpgjiy?file=%2Fsrc%2FApp.jsx)
+  - [Pacman Bowl](https://codesandbox.io/p/sandbox/rapier-physics-7e9y1b?file=%2Fsrc%2FApp.js)
 - Other Articles and Resources:
   - [Henry Heffernan's Portfolio](https://henryheffernan.com/)
   - [Varun Vachhar on Shaders](https://varun.ca/modular-webgl/)
