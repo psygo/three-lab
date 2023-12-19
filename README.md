@@ -40,8 +40,9 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
       - [Henry Heffernan's Portfolio](https://henryheffernan.com/)
       - [3D HTML](https://discourse.threejs.org/t/how-can-i-embed-an-iframe-in-three-js-3d-modeling/44075/2)
 - Shaders
-  - [ ] Simple
+  - [x] Simple
   - [ ] Noise Shader on Top of an Existent Geometry (e.g. Cube)
+  - [ ] Galaxy Shader
   - [Sun](https://youtu.be/3krH52AhPqk)
 - [ ] Physics
   - [ ] Simple with Rapier
@@ -65,6 +66,8 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
     - [Yuri Artiukh's YouTube Channel](https://www.youtube.com/@akella_)
   - Maxime Heckel
     - [Magical World of Particles](https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/)
+    - [Frame Buffer Objects (FBO) for handling 100k+ particles](https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/)
+    - [Maxime's Showcase of Examples](https://r3f.maximeheckel.com/caustics)
   - [Zoom Distort Effect on Image](https://codesandbox.io/p/sandbox/react-three-fiber-hover-zoom-channel-displacement-4o8gj?file=%2Fsrc%2Findex.js)
 - Other Articles and Resources:
   - [Henry Heffernan's Portfolio](https://henryheffernan.com/)
