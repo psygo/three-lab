@@ -27,6 +27,7 @@
     "@react-three/drei": "^9.92.1",
     "@react-three/fiber": "^8.15.12",
     "@react-three/postprocessing": "^2.15.11",
+    "@react-three/rapier": "^1.2.1",
     "@types/three": "^0.159.0",
     "extract-svg-path": "^2.1.0",
     "leva": "^0.9.35",

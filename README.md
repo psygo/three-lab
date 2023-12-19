@@ -44,7 +44,7 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
   - [ ] Noise Shader on Top of an Existent Geometry (e.g. Cube)
   - [ ] Galaxy Shader
   - [Sun](https://youtu.be/3krH52AhPqk)
-- [ ] Physics
+- Physics
   - [ ] Simple with Rapier
   - [ ] Detect when Something Enters Somethings Else (e.g. a basket)
 
