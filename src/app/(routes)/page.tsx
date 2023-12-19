@@ -14,25 +14,27 @@ export default function Home() {
           Basic Techniques
           <ul>
             <li>
-              <Link href="/simple">Simple</Link>
+              <Link href="/basic-techniques/simple">
+                Simple
+              </Link>
             </li>
             <li>
-              <Link href="/spinning-boxes">
+              <Link href="/basic-techniques/spinning-boxes">
                 Spinning Geometries
               </Link>
             </li>
             <li>
-              <Link href="/reflective-plane">
+              <Link href="/basic-techniques/reflective-plane">
                 Reflective Plane
               </Link>
             </li>
             <li>
-              <Link href="/basic-env-map">
+              <Link href="/basic-techniques/basic-env-map">
                 Environment Mapping
               </Link>
             </li>
             <li>
-              <Link href="/camera-movement">
+              <Link href="/basic-techniques/camera-movement">
                 Camera Movement
               </Link>
             </li>
@@ -42,7 +44,9 @@ export default function Home() {
           Post-Processing
           <ul>
             <li>
-              <Link href="/bloom-filter">Bloom Filter</Link>
+              <Link href="/post-processing/bloom-filter">
+                Bloom Filter
+              </Link>
             </li>
           </ul>
         </li>
@@ -50,7 +54,9 @@ export default function Home() {
           Extrusion
           <ul>
             <li>
-              <Link href="/extrusion">Simple</Link>
+              <Link href="/extrusion/basic-extrusion">
+                Simple
+              </Link>
             </li>
           </ul>
         </li>
@@ -58,10 +64,12 @@ export default function Home() {
           HTML and Text
           <ul>
             <li>
-              <Link href="/text-3d">3D Text</Link>
+              <Link href="/html-and-text/text-3d">
+                3D Text
+              </Link>
             </li>
             <li>
-              <Link href="/iframe-positioning">
+              <Link href="/html-and-text/iframe-positioning">
                 iframe Positioning
               </Link>
             </li>
@@ -71,7 +79,7 @@ export default function Home() {
           Shaders
           <ul>
             <li>
-              <Link href="/basic-custom-shader">
+              <Link href="/shaders/basic-custom-shader">
                 Basic Custom Shader
               </Link>
             </li>
@@ -81,13 +89,17 @@ export default function Home() {
           SVG
           <ul>
             <li>
-              <Link href="/svg">SVG Loading</Link>
+              <Link href="/svg/basic-svg">SVG Loading</Link>
             </li>
             <li>
-              <Link href="/svg">SVG to Shape</Link>
+              <Link href="/svg/svg-to-shape">
+                SVG to Shape
+              </Link>
             </li>
             <li>
-              <Link href="/svg-mesh-3d">SVG Mesh 3D</Link>
+              <Link href="/svg/svg-mesh-3d">
+                SVG Mesh 3D
+              </Link>
             </li>
           </ul>
         </li>
@@ -105,10 +117,10 @@ export default function Home() {
           Others
           <ul>
             <li>
-              <Link href="/decal">Decal</Link>
+              <Link href="/others/decal">Decal</Link>
             </li>
             <li>
-              <Link href="/hover-on-face">
+              <Link href="/others/hover-on-face">
                 Hover on Face
               </Link>
             </li>
