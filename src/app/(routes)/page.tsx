@@ -95,7 +95,7 @@ export default function Home() {
           Physics
           <ul>
             <li>
-              <Link href="/simple-rapier">
+              <Link href="/physics/simple-rapier">
                 Simple Rapier
               </Link>
             </li>
