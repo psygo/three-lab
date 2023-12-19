@@ -26,6 +26,9 @@ dependencies:
   '@types/three':
     specifier: ^0.159.0
     version: 0.159.0
+  camera-controls:
+    specifier: ^2.7.3
+    version: 2.7.3(three@0.159.0)
   extract-svg-path:
     specifier: ^2.1.0
     version: 2.1.0
