@@ -2,18 +2,14 @@
 
 import Link from "next/link";
 
+import "./home.scss";
+
 export default function Home() {
   return (
     <main>
       <h1>Philippe Fanaro&apos;s Three.js Lab</h1>
 
-      <ul
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          gap: "20px",
-        }}
-      >
+      <ul>
         <li>
           Basic Techniques
           <ul>
@@ -33,6 +29,11 @@ export default function Home() {
             <li>
               <Link href="/basic-env-map">
                 Environment Mapping
+              </Link>
+            </li>
+            <li>
+              <Link href="/camera-movement">
+                Camera Movement
               </Link>
             </li>
           </ul>
@@ -87,6 +88,16 @@ export default function Home() {
             </li>
             <li>
               <Link href="/svg-mesh-3d">SVG Mesh 3D</Link>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Physics
+          <ul>
+            <li>
+              <Link href="/simple-rapier">
+                Simple Rapier
+              </Link>
             </li>
           </ul>
         </li>
