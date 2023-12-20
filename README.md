@@ -78,6 +78,8 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
   - [Snap to 2D Grid when moving](https://codesandbox.io/p/sandbox/plane-project-uexjm?file=%2Fsrc%2FApp.js%3A39%2C2)
   - [Bowling](https://codesandbox.io/p/sandbox/bowling-with-react-three-fiber-react-three-rapier-rpgjiy?file=%2Fsrc%2FApp.jsx)
   - [Pacman Bowl](https://codesandbox.io/p/sandbox/rapier-physics-7e9y1b?file=%2Fsrc%2FApp.js)
+  - [Basic Rapier Physics Guide by Wawa Sensei](https://youtu.be/OpYtwrtpePY)
+  - [Wawa Sensei - How to use a GLTF file to animate a model](https://youtu.be/2W_VR92Pqgs)
 - Other Articles and Resources:
   - [Henry Heffernan's Portfolio](https://henryheffernan.com/)
   - [Varun Vachhar on Shaders](https://varun.ca/modular-webgl/)
@@ -85,3 +87,4 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
   - [Twist Mesh](https://stackoverflow.com/a/39767668/4756173)
   - [Shear Mesh](https://stackoverflow.com/a/25647543/4756173)
   - [Text Moebius](https://tympanus.net/codrops/2023/01/20/rotating-twisted-3d-typography-with-three-js-and-shaders/)
+  - [Wawa Sensei - Mesh Portal Material](https://youtu.be/2W_VR92Pqgs)
