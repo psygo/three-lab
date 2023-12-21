@@ -8,11 +8,7 @@ import {
   OrbitControls,
   Sphere,
 } from "@react-three/drei";
-import {
-  Physics,
-  RigidBody,
-  CuboidCollider,
-} from "@react-three/rapier";
+import { Physics, RigidBody } from "@react-three/rapier";
 
 function Experience() {
   return (

@@ -88,3 +88,4 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
   - [Shear Mesh](https://stackoverflow.com/a/25647543/4756173)
   - [Text Moebius](https://tympanus.net/codrops/2023/01/20/rotating-twisted-3d-typography-with-three-js-and-shaders/)
   - [Wawa Sensei - Mesh Portal Material](https://youtu.be/2W_VR92Pqgs)
+  - [2D Grid Snap](https://codesandbox.io/p/sandbox/plane-project-uexjm?file=%2Fsrc%2FApp.js)
