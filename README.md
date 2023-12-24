@@ -58,6 +58,7 @@ A lab for [Three.js](https://threejs.org/) things, with [React Three Fiber](http
 - [Three.js Journey](https://threejs-journey.com/#table-of-content)
   - [Early Examples of Three.js Journey Made with R3F](https://journey.pmnd.rs/)
 - [React Three Fiber (R3F)](https://github.com/pmndrs/react-three-fiber)
+  - [Examples Gallery](https://docs.pmnd.rs/react-three-fiber/getting-started/examples)
 - [Drei](https://github.com/pmndrs/drei?tab=readme-ov-file)
 - [Leva GUI Debugging](https://github.com/pmndrs/leva)
 - [R3F-Perf](https://github.com/utsuboco/r3f-perf)
